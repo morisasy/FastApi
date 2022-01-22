@@ -1,0 +1,14 @@
+- fastapi
+-- uvicorn
+-- python3 -m pip install --user virtualenv
+-- python3 -m venv blog-env
+-- . venv/bin/activate
+-- source blog-env/bin/activate
+-- deactivate
+-- rm -rf venv
+-- pip freeze > requirements.txt
+-- pip3 list
+-- snap install sqlitebrowser
+-- pip install starlette
+
+-- uvicorn app.main:app --reload

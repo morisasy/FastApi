@@ -1,0 +1,10 @@
+1. pip install fastapi
+2. pip install uvicorn
+3. https://fastapi.tiangolo.com/
+4. https://github.com/tiangolo/fastapi
+5. https://fastapi.tiangolo.com/tutorial/path-params/
+6. https://pydantic-docs.helpmanual.io/
+7. https://www.uvicorn.org/#quickstart
+8. https://fastapi.tiangolo.com/tutorial/sql-databases/?h=sql
+9.  https://www.pythoncentral.io/introductory-tutorial-python-sqlalchemy/
+10. https://sqlitebrowser.org/
