@@ -9,3 +9,6 @@ passlib
 bcrypt
 
 starlette
+
+python-jose
+python-multipart

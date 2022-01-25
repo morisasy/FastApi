@@ -10,3 +10,7 @@ pip freeze > requirements.txt
 pip3 list
 snap install sqlitebrowser
 pip install "passlib[bcrypt]"
+pip3 install python-jose
+pip install "passlib[bcrypt]"
+
+pip3 install -r  requirements.txt

@@ -1,21 +1,17 @@
-from typing import List
+# main.py
 
 from fastapi import FastAPI
-from sqlalchemy.orm import Session
 
-from . import crud, models, schemas
-from .database import SessionLocal, engine, get_db
-
-from .routers import  blog, user, authentication
-
-# app.main:app --reload
-
+from blog.routers import  blog, user, authentication
+#from .. import schemas, database, models, oauth2
+from blog import models, database
+#from blog import enginegi
 
 
 
 app = FastAPI()
 
-models.Base.metadata.create_all(bind=engine)
+models.Base.metadata.create_all(bind=database.engine)
 
 app.include_router(authentication.router)
 app.include_router(blog.router)

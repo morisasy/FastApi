@@ -12,7 +12,7 @@
 
 - uvicorn main:app --reload
 
-#### requirements
+#### installation
 
 - pip install fastapi
 - pip install "uvicorn[standard]"
@@ -21,8 +21,29 @@
 - from pydantic import BaseModel
 - import uvicorn
 
-#### check 
+#### requirements.txt
+- fastapi
+
+- uvicorn
+
+- sqlalchemy
+
+- passlib
+
+- bcrypt
+
+- starlette
+
+- python-jose
+
+python-multipart
+
+#### check
 
 - http://127.0.0.1:8000/docs
 
+### Deploy on Deta
+- https://web.deta.sh/
 
+#### Blog
+- https://fvgavm.deta.dev/docs
